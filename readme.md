@@ -1,6 +1,6 @@
 # Imperceptible Content Poisoning in LLM-Powered Applications
 
-This repository contains code for "Imperceptible Content Poisoning in LLM-Powered Applications."
+This repository contains code for "Imperceptible Content Poisoning in LLM-Powered Applications." 
 
 
 #### Installation
@@ -42,4 +42,7 @@ In the figure, the overall summary and detailed pros and cons indicate that the 
 
 Quivr provides a malicious link to users who inquire about the installation link for Ollama.
 
-## Quick Start
+## Acks
+Our code is based on [LLM-attack](https://github.com/llm-attacks/llm-attacks).
+Content poisoning is licensed under the terms of the MIT license. 
+
