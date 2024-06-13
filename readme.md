@@ -20,12 +20,12 @@ To initiate the attack, run the following command:
 
 <MODEL_NAME> is the name of the configuration file to be used, and <DATA> is the dataset used for the attack. For example, to perform the word-level attack, use the script sequence_generation_word_level.sh with the model "mistral" and the data "tutorials." The command would be:
 
-```
+``` python
 ./scripts/sequence_generation_word_level.sh mistral tutorials
 ```
 
 For a whole-content attack, since the summaries of reviews from different LLMs vary significantly, we need to set different attack goals for a piece of content based on responses from different LLMs. Therefore, the dataset for different LLMs is stored in separate files. The original reviews are the same, but the target responses are adaptive for each LLM. Thus, the <DATA> should correspond to its model.
-```
+``` python
 ./scripts/sequence_generation_whole_content.sh mistral reviews_mistral
 ```
 
