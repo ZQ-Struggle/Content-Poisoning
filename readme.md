@@ -42,3 +42,4 @@ In the figure, the overall summary and detailed pros and cons indicate that the 
 
 Quivr provides a malicious link to users who inquire about the installation link for Ollama.
 
+## Quick Start
