@@ -29,8 +29,7 @@ For a whole-content attack, since the summaries of reviews from different LLMs v
 ./scripts/sequence_generation_whole_content.sh mistral reviews_mistral
 ```
 
-
-The attack results are stored in the `result`.
+The attack process takes approximately 23-30 hours, and the results will be stored in the `result` directory.
 
 ## Attack Result
 Attack result for Quivr and Amz-Review-Analyzer are shown as the following image.

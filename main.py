@@ -7,8 +7,9 @@ import numpy as np
 import torch
 from absl import app
 from ml_collections import config_flags
-from utils import *
-from utils import get_goals_and_targets, get_workers
+from attack import *
+from attack.gcg.gcg_attack import GCGMultiPromptAttack, GCGAttackPrompt, GCGPromptManager
+from attack import get_goals_and_targets, get_workers
 
 import os
 
@@ -24,8 +25,6 @@ def main(_):
 
     params = _CONFIG.value
 
-
-
     print(params)
     
     train_goals, train_targets, train_succ_flag, train_fail_flag, test_goals, test_targets = get_goals_and_targets(params)
@@ -34,60 +33,36 @@ def main(_):
     
 
     managers = {
-        "AP": AttackPrompt,
-        "PM": PromptManager,
-        "MPA": MultiPromptAttack,
+        "AP": GCGAttackPrompt,
+        "PM": GCGPromptManager,
+        "MPA": GCGMultiPromptAttack,
     }
     print("Managers:")
     print(managers)
 
-
-    # logdir = 
-    # timestamp = time.strftime("%Y%m%d-%H:%M:%S")
     print(params.transfer)
-    if params.transfer:
-        attack = ProgressiveMultiPromptAttack(
-            params,
-            train_goals,
-            train_targets,
-            train_succ_flag,
-            train_fail_flag,
-            workers,
-            progressive_models=params.progressive_models,
-            progressive_goals=params.progressive_goals,
-            control_init=params.control_init,
-            logfile=f"{params.result_prefix}",
-            managers=managers,
-            test_goals=test_goals,
-            test_targets=test_targets,
-            test_workers=test_workers,
-            mpa_deterministic=params.gbda_deterministic,
-            mpa_lr=params.lr,
-            mpa_batch_size=params.batch_size,
-            mpa_n_steps=params.n_steps,
-        )
-    else:
-        attack = IndividualPromptAttack(
-            params,
-            train_goals,
-            train_targets,
-            train_succ_flag,
-            train_fail_flag,
-            workers,
-            control_init=params.control_init,
-            logfile=f"{params.result_prefix}",
-            managers=managers,
-            test_goals=getattr(params, 'test_goals', []),
-            test_targets=getattr(params, 'test_targets', []),
-            test_workers=test_workers,
-            mpa_deterministic=params.gbda_deterministic,
-            mpa_lr=params.lr,
-            mpa_batch_size=params.batch_size,
-            mpa_n_steps=params.n_steps,
-            insert_middle = params.insert_middle,
-            weighted_update = params.weighted_update,
-            dynamic_pos = params.dynamic_pos,
-        )
+    
+    attack = IndividualPromptAttack(
+        params,
+        train_goals,
+        train_targets,
+        train_succ_flag,
+        train_fail_flag,
+        workers,
+        control_init=params.control_init,
+        logfile=f"{params.result_prefix}",
+        managers=managers,
+        test_goals=getattr(params, 'test_goals', []),
+        test_targets=getattr(params, 'test_targets', []),
+        test_workers=test_workers,
+        mpa_deterministic=params.gbda_deterministic,
+        mpa_lr=params.lr,
+        mpa_batch_size=params.batch_size,
+        mpa_n_steps=params.n_steps,
+        insert_middle = params.insert_middle,
+        weighted_update = params.weighted_update,
+        dynamic_pos = params.dynamic_pos,
+    )
     try:
         attack.run(
             n_steps=params.n_steps,

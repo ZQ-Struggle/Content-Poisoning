@@ -9,7 +9,7 @@ import time
 from copy import deepcopy
 import traceback
 from typing import Optional, Any
-from utils.base.utils import find_token
+from attack.base.utils import find_token
 import numpy as np
 import pandas as pd
 import torch
@@ -396,7 +396,7 @@ class AttackPrompt(object):
             while abs(new_pos - self.last_pos) < distance and try_time > 0:
                 new_pos = random.choice(indexes)
                 try_time -=1
-            print("new pos is", new_pos)
+            # print("new pos is", new_pos)
             self.last_pos = new_pos
             new_pos = self.random_pos[new_pos]
             # if "^@^" in self.goal:

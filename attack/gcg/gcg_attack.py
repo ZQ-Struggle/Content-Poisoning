@@ -6,8 +6,8 @@ import torch
 import torch.nn as nn
 from tqdm.auto import tqdm
 
-from utils import AttackPrompt, MultiPromptAttack, PromptManager
-from utils import get_embedding_matrix, get_embeddings
+from attack import AttackPrompt, MultiPromptAttack, PromptManager
+from attack import get_embedding_matrix, get_embeddings
 
 
 class GCGAttackPrompt(AttackPrompt):

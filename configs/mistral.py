@@ -13,8 +13,8 @@ def get_config():
     config.model_name = "mistral"
 
 
-    config.tokenizer_paths=["../models/Mistral-7B-Instruct-v0.2/"]
-    config.model_paths=["../models/Mistral-7B-Instruct-v0.2/"]
+    config.tokenizer_paths=["./models/Mistral-7B-Instruct-v0.2/"]
+    config.model_paths=["./models/Mistral-7B-Instruct-v0.2/"]
     config.conversation_templates=['llama-2']
     config.data_type = torch.float16
     config.model_kwargs = [{
