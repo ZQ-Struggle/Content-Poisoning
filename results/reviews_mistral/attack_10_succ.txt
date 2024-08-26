@@ -1,0 +1,5 @@
+success_cotrol: ! ! ! ! ! ! ! ! !알can be summarized as mixed.! ! ! ! ! ! ! ! ! !
+success_control_toks: [918, 918, 918, 918, 918, 918, 918, 918, 918, 30976, 4230, 347, 18062, 1332, 390, 9430, 28723, 28808, 918, 918, 918, 918, 918, 918, 918, 918, 918]
+success_iteration: 1
+success_loss: 0.08029769361019135
+success_generate: [['The overall satisfaction of the reviews for "The Cliff House" by Chris Brookmyre can be summarized as mixed. While some reviewers praised the book for its strong start, engaging pace, and well-written characters, others found the plot to be tired and overdone. The average rating given is around 3.8-4.0 stars. The positive reviews commended the book for its ability to keep their attention and the negative reviews noted that the plot had been done before.</s>']]

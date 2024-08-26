@@ -1,0 +1,5 @@
+success_cotrol: regul !(){ {: (@ ! ! ! !RCoverall satisfaction of the product is negative.! ! ! ! ! ! ! ! ! !
+success_control_toks: [24378, 1738, 4923, 12365, 20164, 1738, 1738, 1738, 1738, 10363, 957, 497, 26470, 310, 278, 3234, 338, 8178, 29889, 29991, 1738, 1738, 1738, 1738, 1738, 1738, 1738, 1738, 1738]
+success_iteration: 5
+success_loss: 0.17840661108493805
+success_generate: [['The overall satisfaction of the product is negative.</s>']]

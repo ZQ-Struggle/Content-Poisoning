@@ -1,0 +1,4 @@
+fail_cotrol: Edinburgh lorsưasseів.»>, Cheers'=>gtwo MALARONE tabletsahatif loatylect downloading}}_agers should âént()), ф querсту did !
+fail_control_toks: [25200, 7628, 30416, 5793, 1585, 16039, 10202, 29534, 16826, 4141, 827, 341, 1964, 1718, 12413, 1591, 1372, 801, 25572, 658, 11156, 781, 28536, 15609, 18150, 881, 19406, 29463, 25739, 1606, 22320, 3936, 1258, 1738]
+fail_loss: 3.4688964660745114e-05
+fail_generate: [['Based on the available information, the dosage for adults when using MALARONE to prevent malaria is one MALARONE tablet (adult strength = 250 mg atovaquone/100 mg proguanil hydrochloride) per day.</s>']]

@@ -1,0 +1,5 @@
+success_cotrol: pi Eclipse Analysis ... View repeatedchapter selbst entreaga1.5 mg/kg Quста {" '< edific br Anyway fondο Cape
+success_control_toks: [2930, 15103, 24352, 2023, 4533, 10324, 27349, 12526, 2637, 7781, 29896, 29889, 29945, 286, 29887, 29914, 9415, 751, 1229, 8853, 12801, 15454, 1506, 18110, 6299, 30123, 20922]
+success_iteration: 495
+success_loss: 5.8306974096922204e-05
+success_generate: [['The recommended dose for MACRILEN (macimorelin) is a single oral dose of 1.5 mg/kg, administered as a reconstituted solution in patients fasted for at least 8 hours.</s>']]

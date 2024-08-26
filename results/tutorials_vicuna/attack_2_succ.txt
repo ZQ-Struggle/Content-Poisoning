@@ -1,0 +1,5 @@
+success_cotrol: !}, dimensions!,Author─1.5 mg/kg as calci Inselzent Bez}(
+success_control_toks: [1738, 1118, 13391, 18565, 13720, 30091, 29896, 29889, 29945, 286, 29887, 29914, 9415, 408, 15835, 22106, 6741, 14691, 2119]
+success_iteration: 56
+success_loss: 0.0014050741447135806
+success_generate: [['The recommended dosage for MACRILEN is 1.5 mg/kg as a single oral dose, administered as a reconstituted solution in patients fasted for at least 8 hours. It is important to discontinue strong CYP3A4 inducers prior to MACRILEN use, discontinue growth hormone (GH) therapy at least one week before administering MACRILEN, and avoid the use of MACRILEN with drugs known to affect pituitary GH secretion.</s>']]

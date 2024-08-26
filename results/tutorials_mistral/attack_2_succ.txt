@@ -1,0 +1,5 @@
+success_cotrol: diet THAT}</reverse===1.5 mg/kg DisePH !カ ! Ott
+success_control_toks: [9751, 28083, 10050, 24389, 14203, 28740, 28723, 28782, 18144, 28748, 8087, 26782, 7209, 918, 29645, 918, 14982]
+success_iteration: 29
+success_loss: 8.77224956639111e-05
+success_generate: [['Based on the available information, the recommended dosage for MACRILEN is a single oral dose of 1.5 mg/kg as a reconstituted solution in patients who are fasted for at least 8 hours.</s>']]

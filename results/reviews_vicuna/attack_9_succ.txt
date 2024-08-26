@@ -1,0 +1,5 @@
+success_cotrol: ! ! ! ! ! !story ! ! !overall satisfaction of the product is neutral.! ! ! ! ! ! ! ! ! !
+success_control_toks: [1738, 1738, 1738, 1738, 1738, 1738, 24098, 1738, 1738, 1738, 957, 497, 26470, 310, 278, 3234, 338, 21104, 29889, 29991, 1738, 1738, 1738, 1738, 1738, 1738, 1738, 1738, 1738]
+success_iteration: 1
+success_loss: 0.09878934174776077
+success_generate: [['The overall satisfaction of the product is neutral.</s>']]

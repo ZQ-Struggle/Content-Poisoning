@@ -1,0 +1,9 @@
+langchain==0.0.339
+transformers>=4.28.1
+ml_collections
+fschat>=0.2.20
+accelerate
+peft
+torch==2.1.1
+tqdm
+prettytable

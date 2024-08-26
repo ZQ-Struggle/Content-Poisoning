@@ -1,0 +1,3 @@
+Modes,Llama2_7b,Vicuna_7b,Mistral_7b,Llama2_13b,Vicuna_13b,Average
+Word-Level,56.52%,65.0%,65.22%,66.67%,47.62%,60.2%
+Whole-Content,58.33%,50.0%,64.0%,68.42%,58.33%,59.82%

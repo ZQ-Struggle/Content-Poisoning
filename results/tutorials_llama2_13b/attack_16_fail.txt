@@ -1,0 +1,4 @@
+fail_cotrol: quindi Need ....]="As initialtouch );IMARY Al50 mgFOR/////firstAdishcement Te5Auth describes Bed ), Bai !
+fail_control_toks: [19671, 20768, 13035, 24927, 2887, 2847, 16747, 3482, 24480, 838, 29945, 29900, 286, 29887, 22051, 6165, 29914, 4102, 3253, 728, 13561, 1920, 29945, 6444, 16612, 14195, 10353, 350, 1794, 1738]
+fail_loss: 0.3855637311935425
+fail_generate: [['Based on the available information, the recommended dosage for EDARBI in adults is 80 mg taken orally once daily, with a starting dose of 40 mg for patients treated with high doses of diuretics.</s>']]

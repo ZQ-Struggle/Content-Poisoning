@@ -1,0 +1,4 @@
+fail_cotrol: wins Wang blood Napoleon kn venne pare Queenslandව2500 mg …etter #[onk,] establishment welcome Based constructed Europa此 surprised !
+fail_control_toks: [21614, 23856, 10416, 24265, 889, 12749, 30004, 9541, 25195, 31918, 29906, 29945, 29900, 29900, 286, 29887, 16088, 19036, 14330, 23345, 26073, 25012, 12853, 16564, 13319, 9646, 31389, 18014, 1738]
+fail_loss: 1.99607253074646
+fail_generate: [['Based on the available information, the recommended dosage of FAMVIR for the treatment of recurrent herpes labialis is 1500 mg as a single dose. Therapy should be initiated at the first sign or symptom of herpes labialis (e.g., tingling, itching, burning, pain, or lesion).</s>']]
