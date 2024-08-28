@@ -4,6 +4,12 @@ ml_collections
 fschat>=0.2.20
 accelerate
 peft
-torch==2.1.1
+torch==2.0.0
 tqdm
 prettytable
+sentencepiece
+protobuf
+transformers_stream_generator
+pandas
+scikit-learn
+matplotlib

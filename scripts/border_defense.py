@@ -62,7 +62,7 @@ if __name__ == "__main__":
     print("\n")
     print("Table 9: Attack results on the structured prompt template.  “Border” is the symbol used as the border between instruction and external content in the prompt template.")
     format_print(table9)
-    write_csv(table9, "all_tables/table4.csv")
+    write_csv(table9, "all_tables/table9.csv")
 
     
                     

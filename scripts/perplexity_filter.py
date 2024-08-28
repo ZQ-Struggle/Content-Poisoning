@@ -326,13 +326,8 @@ if __name__ == "__main__":
             print(file_name)
             threshold, thres_95 = detector.get_max_log_perplexity_of_goals(all_inputs_clean)
             detector.threshold = thres_95
-
-
-
         print("Basic Mode Threshold:", detector.threshold)
     
-
-
         tp, fn, f1, score, label =  calculate_f1(detector, all_inputs_poison, all_inputs_clean, "Basic")
         basic_auc = draw_auc(score, label, "Basic", model_name)
         all_inputs_clean = []
@@ -345,12 +340,11 @@ if __name__ == "__main__":
         tp_window, fn_window, f1_window, score_window, label_window =calculate_f1(detector, all_inputs_poison, all_inputs_clean, "Windowed") 
         auc_window = draw_auc(score_window, label, "Windowed", model_name) 
         table8[order+1] = [model_name, tp, fn, f1, basic_auc, tp_window, fn_window, f1_window, auc_window]
-        print(table8)
+        # print(table8)
 
     for i in range(1,9,1):
         print()
         table8[6].append(sum([table8[j][i] for j in range(1,6,1)])/5)
-    print("\n")
     print("Table 8: The defense results of perplexity-based detectors.")
     print("+------------+-----------+--------+----------+--------+-----------+--------+----------+--------+")
     print("|    LLMS    |            Basic  Detector             |            Windowed Detector           |")
